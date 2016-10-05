@@ -26,7 +26,6 @@ depends: [
   "ipaddr"
   "ocamlbuild" {build}
 ]
-depopts: ["mirage-net"]
 conflicts: [
   "mirage-net-socket"
   "mirage" {< "0.9.2"}
